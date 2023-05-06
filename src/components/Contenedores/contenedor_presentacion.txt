@@ -1,0 +1,7 @@
+El patrón de Contenedor/Presentacional es una forma común de estructurar componentes en React. Este patrón se enfoca en dividir los componentes en dos categorías:
+
+Contenedores: Componentes que se encargan de la lógica del negocio y la gestión de estados.
+Presentacionales: Componentes que se encargan de renderizar la interfaz de usuario y recibir las propiedades necesarias del componente Contenedor.
+La utilidad de este patrón es que permite separar la lógica del negocio de la presentación, lo que hace que los componentes sean más fáciles de entender y mantener. 
+Además, también facilita la reutilización de componentes, 
+ya que los componentes Presentacionales pueden ser utilizados por varios componentes Contenedores diferentes.
